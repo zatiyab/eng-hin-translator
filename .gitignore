@@ -1,0 +1,9 @@
+.conda
+.venv
+transformer.ipynb
+Dataset_English_Hindi.csv
+hindi_english_parallel.csv
+data.zip
+corpus.txt
+models/gru_model1.keras
+models/gru_model2.keras
