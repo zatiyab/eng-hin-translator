@@ -43,3 +43,34 @@
 </pre>
 <pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Non-trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">0</span> (0.00 B)
 </pre>
+
+
+Model Name
+English→Hindi NMT
+
+Architecture
+BiGRU Encoder
+GRU Decoder
+MultiHeadAttention
+
+Vocabulary
+SentencePiece Unigram
+16k vocab
+
+Parameters
+~22M
+
+Training Data
+~500k sentence pairs
+
+Evaluation
+BLEU ≈ 6.3
+
+Built from scratch without pretrained translation models.
+
+Features:
+- SentencePiece tokenization
+- Bidirectional GRU encoder
+- GRU decoder
+- Multi-head cross-attention
+- Teacher forcing training
